@@ -1,0 +1,14 @@
+//
+// Created by YEONGJUN KIM on 2020/02/22.
+//
+
+#ifndef TFLITEDRIVER_ERRORTYPE_H
+#define TFLITEDRIVER_ERRORTYPE_H
+
+enum ReturnError{
+    OK = 0,
+    ERROR,
+    FILE_OPEN_OK,
+    FILE_OPEN_ERROR,
+};
+#endif //TFLITEDRIVER_ERRORTYPE_H
